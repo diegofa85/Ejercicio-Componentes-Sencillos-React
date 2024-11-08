@@ -1,19 +1,21 @@
 import React from 'react';
 import './App.css';
-import FormularioSimple from './FormularioSimple';  // Importamos el componente Formulario
-import Contador from './Contador';      // Importamos el componente Contador
+import FormularioSimple from './FormularioSimple';
+import Contador from './Contador';
+import ToggleVisibilidad from './ToggleVisibilidad';
+import ListaTareas from './ListaTareas';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Aplicación de Contador y Formulario</h1>
+        <h1>Ejercicio Componentes Sencillos React</h1>
         
-        {/* Llamamos al componente Formulario */}
         <FormularioSimple />
-
-        {/* Llamamos al componente Contador */}
         <Contador />
+        <ToggleVisibilidad />
+        <ListaTareas />
+
       </header>
     </div>
   );
