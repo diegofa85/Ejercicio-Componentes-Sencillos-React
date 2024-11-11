@@ -4,6 +4,7 @@ import FormularioSimple from './FormularioSimple';
 import Contador from './Contador';
 import ToggleVisibilidad from './ToggleVisibilidad';
 import ListaTareas from './ListaTareas';
+import BuscadorProductos from './BuscadorProductos';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Contador />
         <ToggleVisibilidad />
         <ListaTareas />
+        <BuscadorProductos />
 
       </header>
     </div>
